@@ -23,7 +23,7 @@
     flex-wrap: nowrap;
 }
 .card{
-	width: 265px;
+	width: 246px;
     height: 425px;
 	display: flex;
 	flex-direction: column;
@@ -96,9 +96,9 @@ button{
     top: 0;
     left: 0;
 }
-@media screen and (min-width: 720px) and (max-width: 1375px) {
+@media screen and (min-width: 720px) and (max-width: 1280px) {
     .cardsContainer{
-        width: 794px;
+        width: 735px;
         height: 925px;
         display: flex;
         flex-direction: row;
