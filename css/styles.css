@@ -31,6 +31,10 @@
     align-items: center;
 	border: 1px #dee2e3 solid;
 }
+.card:hover {
+    box-shadow: 10px 10px 52px -19px rgba(0, 0, 0, 0.43);
+    transition: all .3s;
+}
 .title{
 	font-size: 30px;
     font-weight: 800;
@@ -83,6 +87,11 @@ button{
     border: none;
     background-color: #29c2e1;
     color: white;
+}
+button:hover{
+    background-color: #22a0ba;
+    transition: all .3s;
+    cursor: pointer;
 }
 .price span{
 	color: #f7941d;
